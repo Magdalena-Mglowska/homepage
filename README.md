@@ -2,4 +2,4 @@
 ## Demo
  https://magdalena-mglowska.github.io/homepage/
  
-Strona na której się znalazłaś/eś to strona którą tworzę w ramach nauki front endu. Będzie mi miło jeśli ją obejrzysz i przy okazji trochę mnie poznasz.
+I made this page because of learning front-end. I will be pleased if you like it. There's a few information about me, where I live, what I'm doing in my life and how I spend my free time. On this page you can find a few suprises for you an example you can change the color of main header or turn off frame in main navigation. Enjoy!
