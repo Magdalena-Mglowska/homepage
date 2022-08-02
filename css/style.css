@@ -35,11 +35,15 @@ color:#EFEFEF;
 
     
 }
+.tableSpecify{
+    overflow-x: auto;
+}
 .table{
     color:#EFEFEF;
     margin: 20px auto;
     border-collapse: collapse;
     font-size: 18px;
+    
 }
 
 .data{
@@ -90,6 +94,8 @@ color:#EFEFEF;
     -webkit-box-shadow: 10px 10px 8px -3px rgba(248,233,233,0.35);
     -moz-box-shadow: 10px 10px 8px -3px rgba(248,233,233,0.35);
     font-size: 20px;
+    flex-wrap:wrap;
+
 
 }
 
@@ -131,10 +137,8 @@ color:#EFEFEF;
     border-radius:20px;
     background-color: black;
     padding:10px;
-    margin-left: 780px;
     width:150px;
-    outline:none;
-    
+    outline:none; 
 }
 .button:hover{
     color:rgb(228, 115, 115);
@@ -162,3 +166,30 @@ button.focus{
     border:none;
     box-shadow:none;  
 }
+.changeColor{
+    color:white;
+    border:1px solid rgb(241, 211, 216);
+    border-radius:20px;
+    background-color: black;
+    padding:10px;
+    width:150px;
+    outline:none;
+}
+.changeColor:hover{
+    color:rgb(228, 115, 115);
+    border:1px solid rgb(228, 115, 115);
+    border-radius:20px;
+    outline:none;
+}
+.changeColor:active{
+    color:rgb(243, 176, 176);
+    border:1px solid rgb(243, 176, 176);
+    border-radius:20px;
+    outline:none;
+}
+.changeColor:focus{
+    outline:none;
+}
+
+
+
