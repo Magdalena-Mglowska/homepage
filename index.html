@@ -12,6 +12,10 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/article1.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
     <script defer src="js/script.js"></script>
@@ -20,26 +24,26 @@
 
 <body>
     <header class="header">
-        <h1 class="header1">O mnie</h1>
+        <h1 class="header__header1">O mnie</h1>
     </header>
     <main>
 
-        <nav>
-            <ul class="unordered">
-                <li><a href="#poczatek" class="link">Coś na początek</a></li>
-                <li><a href="#wyksztalcenie" class="link">Wykształcenie, praca</a></li>
-                <li><a href="#planer" class="link">Tygodniowy planer ćwiczeń i diety</a></li>
+        <nav class ="navigation">
+            <ul class="navigation__unordered">
+                <li><a href="#poczatek" class="navigation__link">Coś na początek</a></li>
+                <li><a href="#wyksztalcenie" class="navigation__link">Wykształcenie, praca</a></li>
+                <li><a href="#planer" class="navigation__link">Tygodniowy planer ćwiczeń i diety</a></li>
             </ul>
 
         </nav>
 
 
         <section class=article1>
-            <button class="button"><span class="themeName">Wyłącz</span> ramkę</button>
+            <button class="article1__button"><span class="article1__themeName">Wyłącz</span> ramkę</button>
             <p><img width=200 src="images/najbardziej-znane-ekranowe-kroliki.jpg" alt="Królik Bugs"></p>
 
 
-            <p class="paragraph">Cześć! Miło, że odwiedzasza tę stronę. Poniżej możesz znaleźć kilka informacji, które
+            <p class="article1__paragraph">Cześć! Miło, że odwiedzasza tę stronę. Poniżej możesz znaleźć kilka informacji, które
                 pomogą Ci
                 mnie trochę poznać. </p>
         </section>
@@ -48,8 +52,8 @@
 
 
         <section class="article1">
-            <h2 class="header2" id="poczatek">Coś na początek</h2>
-            <p class="paragraph">Pochodzę z Lublina, tutaj też mieszkam i pracuję. Koleżanki mówią na mnie
+            <h2 class="article1__header2" id="poczatek">Coś na początek</h2>
+            <p class="article1__paragraph">Pochodzę z Lublina, tutaj też mieszkam i pracuję. Koleżanki mówią na mnie
                 <b>Mełgiewska</b>, co
                 wzięło się z
                 przypadkowego przekręcenia mojego nazwiska przez jedną z nich. Jestem tak wielkim nerdem, że praktycznie
@@ -61,8 +65,8 @@
             </p>
         </section>
         <section class="article1">
-            <h2 class="header2" id="wyksztalcenie">Wykształcenie, praca</h2>
-            <p class="paragraph">W tym temacie można się pogubić... :) Z wykształcenia jestem magistrem resocjalizacji
+            <h2 class="article1__header2" id="wyksztalcenie">Wykształcenie, praca</h2>
+            <p class="article1__paragraph">W tym temacie można się pogubić... :) Z wykształcenia jestem magistrem resocjalizacji
                 oraz
                 grafologiem
                 kryminalnym. Jeszcze w trakcie studiów rozpoczęłam pracę w jednym z trzech największych banków w Polsce
@@ -76,70 +80,70 @@
                 WRDS. No i uczę się front-endu bo <strong> bardzo mi się to spodobało i nie daje mi spokoju :)</strong>
             </p>
             <p>
-                <button class="changeColor">Zmień kolor nagłówka 1 </button>
+                <button class="article1__changeColor">Zmień kolor nagłówka 1 </button>
             </p>
         </section>
 
-        <section class="container" id="planer">
-            <h2 class="header2">Tygodniowy rozkład ćwiczeń</h2>
-            <div class="tableSpecify"><table class="table">
-                <caption class="caption">
+        <section class="article1" id="planer">
+            <h2 class="article1__header2">Tygodniowy rozkład ćwiczeń</h2>
+            <div class="article1__tableSpecify"><table class="article1__table">
+                <caption class="article1__caption">
                     <h2>Mój planer ćwiczeń i postu przerywanego</h2>
                 </caption>
-                <tr class="tableRow">
-                    <th scope="col" class="data tableHeader"></th>
-                    <th scope="col" class="data tableHeader">IF</th>
-                    <th scope="col" class="data tableHeader">Callanetics</th>
-                    <th scope="col" class="data tableHeader">Interwał ABS</th>
-                    <th scope="col" class="data tableHeader">Interwał nogi</th>
+                <tr class="article1__tableRow">
+                    <th scope="col" class="article1__data article1__tableHeader"></th>
+                    <th scope="col" class="article1__data article1__tableHeader">IF</th>
+                    <th scope="col" class="article1__data article1__tableHeader">Callanetics</th>
+                    <th scope="col" class="article1__data article1__tableHeader">Interwał ABS</th>
+                    <th scope="col" class="article1__data article1__tableHeader">Interwał nogi</th>
 
                 </tr>
-                <tr class="tableRow">
-                    <th scope="row" class="data tableHeader">Poniedziałek</th>
-                    <td class="data">x</td>
-                    <td class="data">x</td>
-                    <td class="data">x</td>
-                    <td class="data"></td>
+                <tr class="article1__tableRow">
+                    <th scope="row" class="article1__data article1__tableHeader">Poniedziałek</th>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data"></td>
 
                 </tr>
-                <tr class="tableRow">
-                    <th scope="row" class="data tableHeader">Wtorek</th>
-                    <td class="data">x</td>
-                    <td class="data" colspan="3">Regeneracja</td>
+                <tr class="article1__tableRow">
+                    <th scope="row" class="article1__data article1__tableHeader">Wtorek</th>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data" colspan="3">Regeneracja</td>
 
                 </tr>
-                <tr class="tableRow">
-                    <th scope="row" class="data tableHeader">Środa</th>
-                    <td class="data">x</td>
-                    <td class="data">x</td>
-                    <td class="data"></td>
-                    <td class="data">x</td>
+                <tr class="article1__tableRow">
+                    <th scope="row" class="article1__data article1__tableHeader">Środa</th>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data"></td>
+                    <td class="article1__data">x</td>
                 </tr>
-                <tr class="tableRow">
-                    <th scope="row" class="data tableHeader">Czwartek</th>
-                    <td class="data">x</td>
-                    <td class="data" colspan="3">Regeneracja</td>
+                <tr class="article1__tableRow">
+                    <th scope="row" class="article1__data article1__tableHeader">Czwartek</th>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data" colspan="3">Regeneracja</td>
 
                 </tr>
-                <tr class="tableRow">
-                    <th scope="row" class="data tableHeader">Piątek</th>
-                    <td class="data">x</td>
-                    <td class="data">x</td>
-                    <td class="data"></td>
-                    <td class="data">x</td>
+                <tr class="article1__tableRow">
+                    <th scope="row" class="article1__data article1__tableHeader">Piątek</th>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data"></td>
+                    <td class="article1__data">x</td>
                 </tr>
-                <tr class="tableRow">
-                    <th scope="row" class="data tableHeader">Sobota</th>
-                    <td class="data">x</td>
-                    <td class="data" colspan="3">Regeneracja</td>
+                <tr class="article1__tableRow">
+                    <th scope="row" class="article1__data article1__tableHeader">Sobota</th>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data" colspan="3">Regeneracja</td>
 
                 </tr>
-                <tr class="tableRow">
-                    <th scope="row" class="data tableHeader">Niedziela</th>
-                    <td class="data">x</td>
-                    <td class="data">x</td>
-                    <td class="data">x</td>
-                    <td class="data"></td>
+                <tr class="article1__tableRow">
+                    <th scope="row" class="article1__data article1__tableHeader">Niedziela</th>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data">x</td>
+                    <td class="article1__data"></td>
                 </tr>
             </table></div>
 

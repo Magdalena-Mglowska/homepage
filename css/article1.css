@@ -1,0 +1,105 @@
+.article1{
+    text-align:justify;
+    padding:10px;
+    border-top: 1px solid rgba(255, 192, 203, 0.452);
+    line-height: 1.2;
+    font-size:18px;
+}
+
+.article1__button{
+    color:white;
+    border:1px solid rgb(241, 211, 216);
+    border-radius:20px;
+    background-color: black;
+    padding:10px;
+    width:150px;
+    outline:none; 
+}
+.article1__button:hover{
+    color:rgb(228, 115, 115);
+    border:1px solid rgb(228, 115, 115);
+    border-radius:20px;
+    outline:none;
+
+}
+
+.article1__button:active{
+    color:rgb(243, 176, 176);
+    border:1px solid rgb(243, 176, 176);
+    border-radius:20px;
+    outline:none;
+}
+.article1__button.focus{
+    outline:none;
+}
+.article1__paragraph{
+    color:#EFEFEF;
+    padding-top: 20px;
+    }
+     .article1__changeColor{
+        color:white;
+        border:1px solid rgb(241, 211, 216);
+        border-radius:20px;
+        background-color: black;
+        padding:10px;
+        width:150px;
+        outline:none;
+    }
+    .article1__changeColor:hover{
+        color:rgb(228, 115, 115);
+        border:1px solid rgb(228, 115, 115);
+        border-radius:20px;
+        outline:none;
+    }
+    .article1__changeColor:active{
+        color:rgb(243, 176, 176);
+        border:1px solid rgb(243, 176, 176);
+        border-radius:20px;
+        outline:none;
+    }
+    .article1__changeColor:focus{
+        outline:none;
+    }
+
+    .article1__header2{
+        color: #FFCDD2;
+        text-align: center;
+        }
+        .article1__tableSpecify{
+            overflow-x: auto;
+        }
+        .article1__table{
+            color:#EFEFEF;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 18px;
+            
+        }
+        
+        .article1__data{
+            border: 1px solid rgb(207, 154, 223);
+            text-align:center;
+            width:100px;
+            padding: 10px;
+        }
+        
+        .article1__caption{
+            margin-bottom:20px;
+            font-size: 18px;
+            color: #FFCDD2;
+            text-align: center;
+        }
+        
+        .article1__tableHeader{
+            color:rgb(235, 174, 177)
+        }
+        .article1__tableRow:nth-child(even)
+        {
+            background-color: rgba(226, 158, 158, 0.247);
+        }
+        
+        
+        .article1__tableRow:hover{
+            background-color: rgb(155, 77, 77);
+            color:white;
+        }

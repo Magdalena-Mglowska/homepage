@@ -4,18 +4,18 @@
     }
     const onChangeColorClick = () => {
 
-        const header1 = document.querySelector(".header1");
+        const header1 = document.querySelector(".header__header1");
 
-        header1.classList.toggle("newHeader1");
+        header1.classList.toggle("header__newHeader1");
 
     };
 
     const onButtonClick = () => {
-        const unordered = document.querySelector(".unordered");
-        const themeName = document.querySelector(".themeName");
-        unordered.classList.toggle("unordered2");
+        const unordered = document.querySelector(".navigation__unordered");
+        const themeName = document.querySelector(".article1__themeName");
+        unordered.classList.toggle("navigation__unordered2");
 
-        if (unordered.classList.contains("unordered2")) {
+        if (unordered.classList.contains("navigation__unordered2")) {
             themeName.innerText = "Włącz";
 
         }
@@ -26,12 +26,12 @@
 
 
     const init = () => {
-        const changeColorButton = document.querySelector(".changeColor");
+        const changeColorButton = document.querySelector(".article1__changeColor");
         changeColorButton.addEventListener("click", onChangeColorClick);
 
         welcome();
 
-        const button = document.querySelector(".button");
+        const button = document.querySelector(".article1__button");
         console.log("themeName");
         button.addEventListener("click", onButtonClick);
     };
